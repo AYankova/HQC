@@ -11,9 +11,9 @@
 
         public Event(DateTime date, string title, string location)
         {
-            this.Date = date;
-            this.Title = title;
-            this.Location = location;
+            this.date = date;
+            this.title = title;
+            this.location = location;
         }
 
         public DateTime Date
