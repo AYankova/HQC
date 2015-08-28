@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9064D49-EE53-4775-8EA9-F4301CDC85A2}</ProjectGuid>
+    <ProjectGuid>{6F5BA24F-23A6-4B2A-8D14-B8605543033C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SingletonPattern</RootNamespace>
-    <AssemblyName>SingletonPattern</AssemblyName>
+    <RootNamespace>AbstractFactory</RootNamespace>
+    <AssemblyName>AbstractFactory</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,15 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Item.cs" />
-    <Compile Include="LazyThreadSafeStore.cs" />
-    <Compile Include="StoreDemo.cs" />
+    <Compile Include="BottledWater\BottledWater.cs" />
+    <Compile Include="BottledWater\MineralWater.cs" />
+    <Compile Include="BottledWater\SpringWater.cs" />
+    <Compile Include="BottledWater\TableWater.cs" />
+    <Compile Include="DeliveryCompany.cs" />
+    <Compile Include="Factories\AbstractBottledWaterFactory.cs" />
+    <Compile Include="Factories\PureNaturalInc.cs" />
+    <Compile Include="Factories\SemiNaturalInc.cs" />
+    <Compile Include="AbstractFactoryDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="StoreClassDiagram.cd" />
+    <None Include="WaterAbstractFactoryClassDiagram.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
