@@ -9,7 +9,6 @@
         private readonly List<T> availableCars = new List<T>();
         private readonly List<T> rentedCars = new List<T>();
 
-        // We can define the size of the pool in constructor
         public RentalCompany()
         {
         }
