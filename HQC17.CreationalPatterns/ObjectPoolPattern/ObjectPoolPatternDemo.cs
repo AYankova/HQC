@@ -41,7 +41,6 @@
                     "Car 4 rented on {0:MM/dd/yyyy hh:mm:ss.fff tt} by customer with ID: {1}",
                     car4.RentedAt,
                     car4.CustomerID);
-                Thread.Sleep(2000);
             }
             catch (InvalidOperationException ex)
             {
@@ -53,7 +52,7 @@
             var car5 = rentalCompany.RentCar();
             car5.CustomerID = 81;
             Console.WriteLine(
-                "Car 4 rented on {0:MM/dd/yyyy hh:mm:ss.fff tt} by customer with ID: {1}",
+                "Car 5 rented on {0:MM/dd/yyyy hh:mm:ss.fff tt} by customer with ID: {1}",
                 car5.RentedAt,
                 car5.CustomerID);
         }
