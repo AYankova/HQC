@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{EF3D5F79-036F-44D9-A151-F9E88B474C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{20CEB22C-2554-4019-B224-D7101C5B686D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{B0E2F5A6-FA77-4D97-A6E0-1006A0DE2F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF3D5F79-036F-44D9-A151-F9E88B474C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3D5F79-036F-44D9-A151-F9E88B474C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3D5F79-036F-44D9-A151-F9E88B474C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3D5F79-036F-44D9-A151-F9E88B474C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CEB22C-2554-4019-B224-D7101C5B686D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CEB22C-2554-4019-B224-D7101C5B686D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CEB22C-2554-4019-B224-D7101C5B686D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CEB22C-2554-4019-B224-D7101C5B686D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E2F5A6-FA77-4D97-A6E0-1006A0DE2F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E2F5A6-FA77-4D97-A6E0-1006A0DE2F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E2F5A6-FA77-4D97-A6E0-1006A0DE2F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E2F5A6-FA77-4D97-A6E0-1006A0DE2F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

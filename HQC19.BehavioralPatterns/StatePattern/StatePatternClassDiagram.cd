@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StatePattern.Program" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.ATM">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ATM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.States.ATMState" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAACAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAA=</HashCode>
+      <FileName>States\ATMState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.States.CardValidatedState">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>States\CardValidatedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.States.CashWithdrawnState">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>States\CashWithdrawnState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.States.NoCardState">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>States\NoCardState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StatePattern.States.NoCashState">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>States\NoCashState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
