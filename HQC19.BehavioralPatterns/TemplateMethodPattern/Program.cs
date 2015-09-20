@@ -16,7 +16,7 @@
             Console.WriteLine();
 
             // Lets export the data to PDF file
-            exporter = new PDFExporter();
+            exporter = new PdfExporter();
             exporter.ExportFormatedData();
 
             Console.WriteLine();

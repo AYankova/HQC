@@ -43,7 +43,7 @@
   <ItemGroup>
     <Compile Include="Exporters\DataExporter.cs" />
     <Compile Include="Exporters\ExcelExporter.cs" />
-    <Compile Include="Exporters\PDFExporter.cs" />
+    <Compile Include="Exporters\PdfExporter.cs" />
     <Compile Include="Exporters\WordExporter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

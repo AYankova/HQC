@@ -19,7 +19,7 @@
 
         public override string GetNextScreen()
         {
-            Console.WriteLine("Please Enter your Pin");
+            Console.WriteLine("Please Enter your Pin (Hint - try 1234)");
             string userInput = Console.ReadLine();
 
             // lets check with the dummy pin

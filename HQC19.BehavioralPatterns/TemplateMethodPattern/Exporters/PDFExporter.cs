@@ -2,7 +2,7 @@
 {
     using System;
 
-    internal class PDFExporter : DataExporter
+    internal class PdfExporter : DataExporter
     {
         public override void ExportData()
         {
